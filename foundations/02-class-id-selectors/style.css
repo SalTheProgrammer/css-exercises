@@ -1,0 +1,20 @@
+.odd1,
+.odd2 {
+    background-color: pink;
+    font: 'Verdana';
+}
+
+.odd2 {
+    font-size: 24px;
+}
+
+#even1 {
+    color: blue;
+    font-size: 36px;
+}
+
+#even2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
