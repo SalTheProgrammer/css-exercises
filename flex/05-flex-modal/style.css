@@ -33,6 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 16px;
 }
 
 .close-button {
@@ -60,10 +61,38 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-right: 8px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* ----- my solution ----*/
+.header {
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.modal {
+  display: flex;
+  flex-direction: row;
+  padding: 16px; 
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-shrink: 4;
 }
